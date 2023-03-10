@@ -1,0 +1,45 @@
+baseurl: /
+languageCode: en-us
+title: Samuel Y Huang's Blog
+theme: hugo-lithium
+googleAnalytics: ''
+disqusShortname: ''
+ignoreFiles:
+  - \.Rmd$
+  - \.Rmarkdown$
+  - _cache$
+  - \.knit\.md$
+  - \.utf8\.md$
+permalinks:
+  post: /:year/:month/:day/:slug/
+menu:
+  main:
+    - name: About
+      url: /about/
+    - name: GitHub
+      url: https://github.com/huangs8
+    - name: Twitter
+      url: https://twitter.com/SamuelYHuang
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/samuel-huang-a63874218
+params:
+  MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
+  MathJaxVersion: 2.7.5
+  description: A website built through Hugo and blogdown.
+  favicon: 335061544_166856882822315_1424681937333603590_n.jpg
+  highlightjsCDN: //cdnjs.cloudflare.com/ajax/libs
+  highlightjsLang:
+    - r
+    - yaml
+  highlightjsTheme: github
+  highlightjsVersion: 9.12.0
+  logo:
+    alt: Logo
+    height: 50
+    url: 302744395_5513748328671621_8124943153821835033_n.jpg
+    width: 50
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: yes
